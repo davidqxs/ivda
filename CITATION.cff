@@ -1,6 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "IVDA: Boundary-Aware V-Detector with Statistically Guided Termination"
+version: v1.0.0
+doi: 10.5281/zenodo.21880843
+repository-code: "https://github.com/davidqxs/ivda"
 license: MIT
 authors:
   - family-names: Luo

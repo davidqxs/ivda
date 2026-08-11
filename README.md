@@ -89,4 +89,6 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). Journal details will be added on acceptance.
+Archived release: [10.5281/zenodo.21880843](https://doi.org/10.5281/zenodo.21880843)
+(v1.0.0). Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). Journal details
+will be added on acceptance.
