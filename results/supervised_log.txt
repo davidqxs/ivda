@@ -1,0 +1,27 @@
+﻿Loading NSL-KDD...
+N=148517, dims=15
+  RandomForest fold 0: DR=0.9912 FPR=0.0080 Acc=0.9916 nodes=266950 t=4.1s
+  RandomForest fold 1: DR=0.9882 FPR=0.0074 Acc=0.9905 nodes=266418 t=4.1s
+  RandomForest fold 2: DR=0.9920 FPR=0.0069 Acc=0.9926 nodes=269294 t=4.2s
+  RandomForest fold 3: DR=0.9889 FPR=0.0078 Acc=0.9906 nodes=267370 t=4.1s
+  RandomForest fold 4: DR=0.9905 FPR=0.0075 Acc=0.9915 nodes=267930 t=4.1s
+  RandomForest fold 5: DR=0.9863 FPR=0.0086 Acc=0.9890 nodes=264548 t=4.2s
+  RandomForest fold 6: DR=0.9870 FPR=0.0080 Acc=0.9896 nodes=265002 t=4.1s
+  RandomForest fold 7: DR=0.9901 FPR=0.0079 Acc=0.9911 nodes=265384 t=4.1s
+  RandomForest fold 8: DR=0.9913 FPR=0.0077 Acc=0.9919 nodes=266736 t=4.1s
+  RandomForest fold 9: DR=0.9884 FPR=0.0073 Acc=0.9906 nodes=268480 t=4.2s
+  HistGradientBoosting fold 0: DR=0.9847 FPR=0.0115 Acc=0.9867 nodes=6100 t=2.3s
+  HistGradientBoosting fold 1: DR=0.9831 FPR=0.0105 Acc=0.9864 nodes=6100 t=0.6s
+  HistGradientBoosting fold 2: DR=0.9870 FPR=0.0108 Acc=0.9881 nodes=6100 t=0.6s
+  HistGradientBoosting fold 3: DR=0.9811 FPR=0.0103 Acc=0.9856 nodes=6100 t=0.6s
+  HistGradientBoosting fold 4: DR=0.9857 FPR=0.0103 Acc=0.9878 nodes=6100 t=0.6s
+  HistGradientBoosting fold 5: DR=0.9807 FPR=0.0104 Acc=0.9853 nodes=6100 t=0.6s
+  HistGradientBoosting fold 6: DR=0.9806 FPR=0.0099 Acc=0.9855 nodes=6100 t=0.6s
+  HistGradientBoosting fold 7: DR=0.9845 FPR=0.0109 Acc=0.9869 nodes=6100 t=0.7s
+  HistGradientBoosting fold 8: DR=0.9847 FPR=0.0092 Acc=0.9879 nodes=6100 t=0.7s
+  HistGradientBoosting fold 9: DR=0.9849 FPR=0.0093 Acc=0.9879 nodes=6100 t=0.7s
+
+=== summary (mean over 10 folds) ===
+  HistGradientBoosting: DR=98.37 FPR=1.03 Acc=98.68 nodes=6100 train=0.8s
+  RandomForest: DR=98.94 FPR=0.77 Acc=99.09 nodes=266811 train=4.1s
+Done -> results/nslkdd_supervised_*.csv

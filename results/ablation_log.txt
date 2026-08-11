@@ -1,0 +1,55 @@
+Loading NSL-KDD...
+N=148517, dims=15, classes=(array(['DoS', 'Probe', 'R2L', 'U2R', 'normal'], dtype=object), array([53387, 14077,  3880,   119, 77054]))
+  fold 0 V0_classical: DR=0.8770 FPR=0.0100 Acc=0.9356 n_det=1500 t=5.0s
+  fold 0 V1_stat_term: DR=0.8770 FPR=0.0100 Acc=0.9356 n_det=1500 t=5.7s
+  fold 0 V2_boundary: DR=0.9284 FPR=0.0021 Acc=0.9644 n_det=151 t=67.1s
+  fold 0 V3_full_binary: DR=0.9284 FPR=0.0021 Acc=0.9644 n_det=151 t=79.5s
+  fold 1 V0_classical: DR=0.9086 FPR=0.0100 Acc=0.9508 n_det=1500 t=5.0s
+  fold 1 V1_stat_term: DR=0.9086 FPR=0.0100 Acc=0.9508 n_det=1500 t=5.7s
+  fold 1 V2_boundary: DR=0.9183 FPR=0.0019 Acc=0.9597 n_det=126 t=46.1s
+  fold 1 V3_full_binary: DR=0.9183 FPR=0.0019 Acc=0.9597 n_det=126 t=46.4s
+  fold 2 V0_classical: DR=0.9102 FPR=0.0108 Acc=0.9512 n_det=1500 t=5.1s
+  fold 2 V1_stat_term: DR=0.9102 FPR=0.0108 Acc=0.9512 n_det=1500 t=5.7s
+  fold 2 V2_boundary: DR=0.9179 FPR=0.0018 Acc=0.9595 n_det=130 t=43.2s
+  fold 2 V3_full_binary: DR=0.9179 FPR=0.0018 Acc=0.9595 n_det=130 t=42.7s
+  fold 3 V0_classical: DR=0.8985 FPR=0.0083 Acc=0.9469 n_det=1500 t=5.1s
+  fold 3 V1_stat_term: DR=0.8985 FPR=0.0083 Acc=0.9469 n_det=1500 t=5.6s
+  fold 3 V2_boundary: DR=0.9317 FPR=0.0029 Acc=0.9657 n_det=143 t=63.9s
+  fold 3 V3_full_binary: DR=0.9317 FPR=0.0029 Acc=0.9657 n_det=143 t=64.5s
+  fold 4 V0_classical: DR=0.9019 FPR=0.0104 Acc=0.9474 n_det=1500 t=5.6s
+  fold 4 V1_stat_term: DR=0.9019 FPR=0.0104 Acc=0.9474 n_det=1500 t=6.5s
+  fold 4 V2_boundary: DR=0.9246 FPR=0.0023 Acc=0.9625 n_det=133 t=63.0s
+  fold 4 V3_full_binary: DR=0.9246 FPR=0.0023 Acc=0.9625 n_det=133 t=53.8s
+  fold 5 V0_classical: DR=0.9082 FPR=0.0126 Acc=0.9493 n_det=1500 t=5.2s
+  fold 5 V1_stat_term: DR=0.9082 FPR=0.0126 Acc=0.9493 n_det=1500 t=5.6s
+  fold 5 V2_boundary: DR=0.9166 FPR=0.0026 Acc=0.9585 n_det=118 t=43.3s
+  fold 5 V3_full_binary: DR=0.9166 FPR=0.0026 Acc=0.9585 n_det=118 t=43.3s
+  fold 6 V0_classical: DR=0.8935 FPR=0.0086 Acc=0.9443 n_det=1500 t=4.9s
+  fold 6 V1_stat_term: DR=0.8935 FPR=0.0086 Acc=0.9443 n_det=1500 t=5.4s
+  fold 6 V2_boundary: DR=0.9232 FPR=0.0022 Acc=0.9619 n_det=134 t=49.7s
+  fold 6 V3_full_binary: DR=0.9232 FPR=0.0022 Acc=0.9619 n_det=134 t=50.1s
+  fold 7 V0_classical: DR=0.9151 FPR=0.0123 Acc=0.9527 n_det=1500 t=5.1s
+  fold 7 V1_stat_term: DR=0.9151 FPR=0.0123 Acc=0.9527 n_det=1500 t=5.5s
+  fold 7 V2_boundary: DR=0.9193 FPR=0.0022 Acc=0.9600 n_det=125 t=34.9s
+  fold 7 V3_full_binary: DR=0.9193 FPR=0.0022 Acc=0.9600 n_det=125 t=34.6s
+  fold 8 V0_classical: DR=0.9061 FPR=0.0099 Acc=0.9497 n_det=1500 t=5.2s
+  fold 8 V1_stat_term: DR=0.9061 FPR=0.0099 Acc=0.9497 n_det=1500 t=5.5s
+  fold 8 V2_boundary: DR=0.9264 FPR=0.0014 Acc=0.9638 n_det=124 t=59.9s
+  fold 8 V3_full_binary: DR=0.9264 FPR=0.0014 Acc=0.9638 n_det=124 t=59.8s
+  fold 9 V0_classical: DR=0.8977 FPR=0.0099 Acc=0.9457 n_det=1500 t=5.2s
+  fold 9 V1_stat_term: DR=0.8977 FPR=0.0099 Acc=0.9457 n_det=1500 t=5.6s
+  fold 9 V2_boundary: DR=0.9286 FPR=0.0018 Acc=0.9647 n_det=155 t=64.9s
+  fold 9 V3_full_binary: DR=0.9286 FPR=0.0018 Acc=0.9647 n_det=155 t=63.9s
+Running V4 multi-class...
+  fold 0 V4_multiclass: Acc=0.9890 n_det=560 t=92.3s
+  fold 1 V4_multiclass: Acc=0.9894 n_det=524 t=90.7s
+  fold 2 V4_multiclass: Acc=0.9899 n_det=526 t=83.8s
+  fold 3 V4_multiclass: Acc=0.9874 n_det=534 t=91.2s
+  fold 4 V4_multiclass: Acc=0.9896 n_det=508 t=79.3s
+  fold 5 V4_multiclass: Acc=0.9861 n_det=518 t=77.5s
+  fold 6 V4_multiclass: Acc=0.9877 n_det=533 t=86.4s
+  fold 7 V4_multiclass: Acc=0.9886 n_det=512 t=87.5s
+  fold 8 V4_multiclass: Acc=0.9911 n_det=518 t=95.0s
+  fold 9 V4_multiclass: Acc=0.9885 n_det=527 t=92.5s
+Running baselines (KNN, KMeans)...
+Done. Results written to results/nslkdd_*.csv

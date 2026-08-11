@@ -1,0 +1,10 @@
+{
+  "random_forest": {
+    "n_estimators": 100
+  },
+  "hist_gradient_boosting": "sklearn defaults",
+  "n_folds": 10,
+  "pca_dim": 15,
+  "rng_seed": 0,
+  "folds": "identical to run_ablation_nslkdd.py"
+}

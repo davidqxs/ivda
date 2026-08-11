@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "IVDA: Boundary-Aware V-Detector with Statistically Guided Termination"
+license: MIT
+authors:
+  - family-names: Luo
+    given-names: Yuling
+  - family-names: Lu
+    given-names: Qian
+  - family-names: Qin
+    given-names: Xingsheng
+    email: xingshengqin@gxnu.edu.cn
+  - family-names: Liu
+    given-names: Junxiu
+  - family-names: Li
+    given-names: Jack
+  - family-names: Ouyang
+    given-names: Xue
+preferred-citation:
+  type: article
+  title: "A Boundary-Aware V-Detector with Statistically Guided Termination for Multi-Class Intrusion Detection"
+  year: 2026
+  journal: "(under review)"
+  authors:
+    - family-names: Luo
+      given-names: Yuling
+    - family-names: Lu
+      given-names: Qian
+    - family-names: Qin
+      given-names: Xingsheng
+    - family-names: Liu
+      given-names: Junxiu
+    - family-names: Li
+      given-names: Jack
+    - family-names: Ouyang
+      given-names: Xue

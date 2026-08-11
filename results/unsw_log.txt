@@ -1,0 +1,8 @@
+Loading UNSW-NB15...
+N_train=140272, N_test=35069, classes=['Analysis' 'Backdoor' 'DoS' 'Exploits' 'Fuzzers' 'Generic' 'Normal'
+ 'Reconnaissance' 'Shellcode' 'Worms']
+V0_classical: DR=0.6601 FPR=0.0144 Acc=0.7641 n_det=1500 t=2.9s
+V3_full_binary: DR=0.6871 FPR=0.0035 Acc=0.7859 n_det=119 t=68.2s
+Running UNSW-NB15 multi-class (V4)...
+V4_multiclass: Acc=0.7001 n_det=1349 t=159.7s
+Done.

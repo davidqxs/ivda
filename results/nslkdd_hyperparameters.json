@@ -1,0 +1,16 @@
+{
+  "detector_hp": {
+    "alpha": 0.05,
+    "n_probe": 3000,
+    "c_target": 0.95,
+    "rho_min": 0.0005,
+    "boundary_k": 30,
+    "max_detectors": 1500,
+    "max_consecutive_failures": 1500,
+    "cap_radius": false,
+    "r_min": 1e-06
+  },
+  "n_folds": 10,
+  "pca_dim": 15,
+  "rng_seed": 0
+}

@@ -1,0 +1,42 @@
+﻿Loading NSL-KDD...
+
+=== 41 features (encoding=ordinal, pca=None) dims=41
+   fold 0: Acc=0.9057 DR=0.8053 FPR=0.0012 n_det=88 t=87.9s
+   fold 1: Acc=0.9128 DR=0.8198 FPR=0.0009 n_det=100 t=65.8s
+   fold 2: Acc=0.9245 DR=0.8458 FPR=0.0025 n_det=108 t=125.0s
+
+=== 122 features (encoding=onehot, pca=None) dims=122
+   fold 0: Acc=0.9457 DR=0.8886 FPR=0.0014 n_det=128 t=344.4s
+   fold 1: Acc=0.9356 DR=0.8673 FPR=0.0012 n_det=118 t=220.1s
+   fold 2: Acc=0.9458 DR=0.8899 FPR=0.0023 n_det=138 t=414.4s
+
+=== 27 features (encoding=onehot, pca=27) dims=27
+   fold 0: Acc=0.9622 DR=0.9246 FPR=0.0029 n_det=134 t=96.9s
+   fold 1: Acc=0.9614 DR=0.9230 FPR=0.0030 n_det=144 t=96.6s
+   fold 2: Acc=0.9667 DR=0.9335 FPR=0.0025 n_det=146 t=114.0s
+
+=== 15 features (encoding=onehot, pca=15) dims=15
+   fold 0: Acc=0.9644 DR=0.9284 FPR=0.0021 n_det=151 t=25.3s
+   fold 1: Acc=0.9596 DR=0.9181 FPR=0.0019 n_det=126 t=21.1s
+   fold 2: Acc=0.9595 DR=0.9179 FPR=0.0018 n_det=130 t=19.5s
+
+=== 11 features (encoding=onehot, pca=11) dims=11
+   fold 0: Acc=0.9607 DR=0.9200 FPR=0.0014 n_det=131 t=8.5s
+   fold 1: Acc=0.9583 DR=0.9149 FPR=0.0014 n_det=112 t=7.6s
+   fold 2: Acc=0.9588 DR=0.9163 FPR=0.0018 n_det=118 t=6.6s
+
+=== 8 features (encoding=onehot, pca=8) dims=8
+   fold 0: Acc=0.9589 DR=0.9158 FPR=0.0012 n_det=119 t=3.2s
+   fold 1: Acc=0.9562 DR=0.9107 FPR=0.0017 n_det=97 t=3.6s
+   fold 2: Acc=0.9602 DR=0.9187 FPR=0.0013 n_det=106 t=3.4s
+
+=== Table 1 (regenerated) ===
+    41  Acc= 91.44±0.95  train= 92.89±29.90s  det=99
+   122  Acc= 94.23±0.59  train=326.29±98.39s  det=128
+    27  Acc= 96.35±0.29  train=102.53±9.95s  det=141
+    15  Acc= 96.12±0.28  train= 21.98±3.02s  det=136
+    11  Acc= 95.93±0.13  train=  7.57±0.95s  det=120
+     8  Acc= 95.84±0.21  train=  3.41±0.22s  det=107
+
+best accuracy at 27 features (96.35%)
+Done -> results/nslkdd_feature_dim.csv

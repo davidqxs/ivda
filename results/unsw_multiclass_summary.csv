@@ -1,0 +1,2 @@
+variant,Acc,n_detectors,train_time_s,infer_time_per_sample_s
+V4_multiclass,0.7001340215004705,1349,159.70447301864624,0.006154840532124626
