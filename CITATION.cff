@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "IVDA: Boundary-Aware V-Detector with Statistically Guided Termination"
-version: v1.0.0
-doi: 10.5281/zenodo.21880843
+version: v1.1.0
+date-released: 2026-10-23
 repository-code: "https://github.com/davidqxs/ivda"
 license: MIT
 authors:
@@ -21,7 +21,7 @@ authors:
     given-names: Xue
 preferred-citation:
   type: article
-  title: "A Boundary-Aware V-Detector with Statistically Guided Termination for Multi-Class Intrusion Detection"
+  title: "Compiling Compact Negative-Selection Detectors into Spiking Neural Networks for Energy-Efficient, Low False-Alarm Intrusion Detection"
   year: 2026
   journal: "(under review)"
   authors:

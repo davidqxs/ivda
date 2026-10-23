@@ -1,0 +1,24 @@
+
+### V3_ivda: 100 detectors -> 100 spiking neurons, 16 inputs
+  [1] analog threshold units vs exact V-detector: agreement 0.999956 (1 of 22544 samples differ)
+  dense inference : 1600 MACs  ~    7360.0 pJ/sample
+  T=   4  agree=0.4811  DR=0.6196  FPR=0.6090  SynOps=     3072  ~   2765.0 pJ  ( 0.38x dense)
+  T=   8  agree=0.5072  DR=0.5865  FPR=0.5443  SynOps=     6137  ~   5523.7 pJ  ( 0.75x dense)
+  T=  16  agree=0.5262  DR=0.5773  FPR=0.5149  SynOps=    12264  ~  11037.4 pJ  ( 1.50x dense)
+  T=  32  agree=0.5482  DR=0.5706  FPR=0.4842  SynOps=    24523  ~  22070.4 pJ  ( 3.00x dense)
+  T=  64  agree=0.5681  DR=0.5554  FPR=0.4546  SynOps=    49064  ~  44158.0 pJ  ( 6.00x dense)
+  T= 128  agree=0.6099  DR=0.5404  FPR=0.4080  SynOps=    98146  ~  88331.2 pJ  (12.00x dense)
+  T= 256  agree=0.6527  DR=0.5510  FPR=0.3543  SynOps=   196274  ~ 176646.7 pJ  (24.00x dense)
+
+### V0_classical: 1500 detectors -> 1500 spiking neurons, 16 inputs
+  [1] analog threshold units vs exact V-detector: agreement 0.999867 (3 of 22544 samples differ)
+  dense inference : 24000 MACs  ~  110400.0 pJ/sample
+  T=   4  agree=0.4844  DR=0.6512  FPR=0.6556  SynOps=    46083  ~  41474.3 pJ  ( 0.38x dense)
+  T=   8  agree=0.5079  DR=0.6243  FPR=0.6004  SynOps=    92062  ~  82855.6 pJ  ( 0.75x dense)
+  T=  16  agree=0.5168  DR=0.6225  FPR=0.5819  SynOps=   183957  ~ 165561.6 pJ  ( 1.50x dense)
+  T=  32  agree=0.5280  DR=0.6251  FPR=0.5720  SynOps=   367840  ~ 331056.4 pJ  ( 3.00x dense)
+  T=  64  agree=0.5440  DR=0.6297  FPR=0.5546  SynOps=   735967  ~ 662370.3 pJ  ( 6.00x dense)
+  T= 128  agree=0.5642  DR=0.6334  FPR=0.5406  SynOps=  1472187  ~1324967.9 pJ  (12.00x dense)
+  T= 256  agree=0.5978  DR=0.6691  FPR=0.5250  SynOps=  2944112  ~2649700.8 pJ  (24.00x dense)
+
+wrote results/snn_compile_canonical.csv

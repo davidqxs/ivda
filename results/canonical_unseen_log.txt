@@ -1,0 +1,24 @@
+canonical test set: 9711 normal, 9083 attacks of types seen in training, 3750 attacks of types NOT seen in training
+  seed 0 V0_classical: DR_seen=0.7632 DR_unseen=0.7779 DR_all=0.7675 FPR=0.0899 n_det=1500
+  seed 0 V2_boundary: DR_seen=0.7289 DR_unseen=0.4003 DR_all=0.6329 FPR=0.0747 n_det=106
+  seed 0 V3_full_binary: DR_seen=0.7269 DR_unseen=0.4000 DR_all=0.6313 FPR=0.0742 n_det=100
+  seed 1 V0_classical: DR_seen=0.7679 DR_unseen=0.8245 DR_all=0.7845 FPR=0.1000 n_det=1500
+  seed 1 V2_boundary: DR_seen=0.7162 DR_unseen=0.2723 DR_all=0.5865 FPR=0.0727 n_det=78
+  seed 1 V3_full_binary: DR_seen=0.7127 DR_unseen=0.2680 DR_all=0.5827 FPR=0.0706 n_det=71
+  seed 2 V0_classical: DR_seen=0.8145 DR_unseen=0.8165 DR_all=0.8151 FPR=0.0997 n_det=1500
+  seed 2 V2_boundary: DR_seen=0.7172 DR_unseen=0.3997 DR_all=0.6244 FPR=0.0733 n_det=91
+  seed 2 V3_full_binary: DR_seen=0.7140 DR_unseen=0.3997 DR_all=0.6221 FPR=0.0729 n_det=83
+  seed 3 V0_classical: DR_seen=0.7800 DR_unseen=0.7776 DR_all=0.7793 FPR=0.0972 n_det=1500
+  seed 3 V2_boundary: DR_seen=0.7078 DR_unseen=0.4403 DR_all=0.6296 FPR=0.0746 n_det=84
+  seed 3 V3_full_binary: DR_seen=0.6944 DR_unseen=0.4213 DR_all=0.6146 FPR=0.0746 n_det=78
+  seed 4 V0_classical: DR_seen=0.7769 DR_unseen=0.8088 DR_all=0.7863 FPR=0.0985 n_det=1500
+  seed 4 V2_boundary: DR_seen=0.7114 DR_unseen=0.5469 DR_all=0.6634 FPR=0.0783 n_det=79
+  seed 4 V3_full_binary: DR_seen=0.6891 DR_unseen=0.4957 DR_all=0.6326 FPR=0.0781 n_det=73
+
+=== seen vs unseen attack types (mean over 5 seeds) ===
+       variant  DR_seen_mean  DR_seen_sd  DR_unseen_mean  DR_unseen_sd  DR_all_mean  FPR_mean  n_det_mean
+  V0_classical      0.780513    0.020163        0.801067      0.022015     0.786519  0.097065      1500.0
+   V2_boundary      0.716305    0.008007        0.411893      0.098513     0.627351  0.074699        87.6
+V3_full_binary      0.707387    0.015444        0.396960      0.082155     0.616676  0.074081        81.0
+
+wrote results/nslkdd_canonical_unseen.csv and results/nslkdd_canonical_unseen_summary.csv

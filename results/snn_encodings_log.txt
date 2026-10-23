@@ -1,0 +1,58 @@
+
+### V3_ivda: 100 detectors; dense = 1600 MACs ~ 7360 pJ/sample
+  [rate           ] analog agreement with V-detector: 0.999956
+  rate            T=   4  agree=0.4802  DR=0.6193  FPR=0.6036  spikes= 30.68  E/dense: synops  0.38x  total  0.42x
+  rate            T=   8  agree=0.5083  DR=0.5951  FPR=0.5499  spikes= 61.33  E/dense: synops  0.75x  total  0.85x
+  rate            T=  16  agree=0.5237  DR=0.5724  FPR=0.5183  spikes=122.69  E/dense: synops  1.50x  total  1.70x
+  rate            T=  32  agree=0.5429  DR=0.5667  FPR=0.4891  spikes=245.41  E/dense: synops  3.00x  total  3.39x
+  rate            T=  64  agree=0.5728  DR=0.5588  FPR=0.4561  spikes=490.71  E/dense: synops  6.00x  total  6.78x
+  rate            T= 128  agree=0.6107  DR=0.5486  FPR=0.3951  spikes=981.29  E/dense: synops 12.00x  total 13.56x
+  [rate_centred   ] analog agreement with V-detector: 1.000000
+  rate_centred    T=   4  agree=0.5313  DR=0.6327  FPR=0.4743  spikes= 11.44  E/dense: synops  0.14x  total  0.19x
+  rate_centred    T=   8  agree=0.6332  DR=0.6105  FPR=0.3440  spikes= 22.90  E/dense: synops  0.28x  total  0.38x
+  rate_centred    T=  16  agree=0.7158  DR=0.5695  FPR=0.2247  spikes= 45.78  E/dense: synops  0.56x  total  0.76x
+  rate_centred    T=  32  agree=0.7786  DR=0.5507  FPR=0.1547  spikes= 91.64  E/dense: synops  1.12x  total  1.51x
+  rate_centred    T=  64  agree=0.8284  DR=0.5409  FPR=0.1075  spikes=183.04  E/dense: synops  2.24x  total  3.02x
+  rate_centred    T= 128  agree=0.8708  DR=0.5477  FPR=0.0915  spikes=366.20  E/dense: synops  4.48x  total  6.04x
+  ttfs_centred    T=   4  agree=0.3138  DR=0.4493  FPR=0.5603  spikes=  7.50  E/dense: synops  0.09x  total  0.14x
+  ttfs_centred    T=   8  agree=0.8707  DR=0.6412  FPR=0.1278  spikes= 11.08  E/dense: synops  0.14x  total  0.23x
+  ttfs_centred    T=  16  agree=0.8826  DR=0.5401  FPR=0.0824  spikes= 12.92  E/dense: synops  0.16x  total  0.35x
+  ttfs_centred    T=  32  agree=0.9645  DR=0.6042  FPR=0.0793  spikes= 14.48  E/dense: synops  0.18x  total  0.57x
+  ttfs_centred    T=  64  agree=0.9819  DR=0.6201  FPR=0.0753  spikes= 15.31  E/dense: synops  0.19x  total  0.97x
+  ttfs_centred    T= 128  agree=0.9914  DR=0.6295  FPR=0.0748  spikes= 15.67  E/dense: synops  0.19x  total  1.76x
+  ttfs_consistent T=   4  agree=0.9532  DR=0.6163  FPR=0.0808  spikes=  8.17  E/dense: synops  0.10x  total  0.15x
+  ttfs_consistent T=   8  agree=0.9810  DR=0.6255  FPR=0.0783  spikes= 11.53  E/dense: synops  0.14x  total  0.24x
+  ttfs_consistent T=  16  agree=0.9906  DR=0.6306  FPR=0.0757  spikes= 13.27  E/dense: synops  0.16x  total  0.36x
+  ttfs_consistent T=  32  agree=0.9930  DR=0.6273  FPR=0.0750  spikes= 14.60  E/dense: synops  0.18x  total  0.57x
+  ttfs_consistent T=  64  agree=0.9968  DR=0.6277  FPR=0.0745  spikes= 15.31  E/dense: synops  0.19x  total  0.97x
+  ttfs_consistent T= 128  agree=0.9974  DR=0.6292  FPR=0.0746  spikes= 15.67  E/dense: synops  0.19x  total  1.76x
+
+### V0_classical: 1500 detectors; dense = 24000 MACs ~ 110400 pJ/sample
+  [rate           ] analog agreement with V-detector: 0.999867
+  rate            T=   4  agree=0.4839  DR=0.6527  FPR=0.6497  spikes= 30.68  E/dense: synops  0.38x  total  0.42x
+  rate            T=   8  agree=0.5082  DR=0.6324  FPR=0.6057  spikes= 61.33  E/dense: synops  0.75x  total  0.85x
+  rate            T=  16  agree=0.5099  DR=0.6159  FPR=0.5937  spikes=122.69  E/dense: synops  1.50x  total  1.70x
+  rate            T=  32  agree=0.5261  DR=0.6249  FPR=0.5738  spikes=245.41  E/dense: synops  3.00x  total  3.39x
+  rate            T=  64  agree=0.5486  DR=0.6297  FPR=0.5543  spikes=490.71  E/dense: synops  6.00x  total  6.78x
+  rate            T= 128  agree=0.5678  DR=0.6447  FPR=0.5356  spikes=981.29  E/dense: synops 12.00x  total 13.56x
+  [rate_centred   ] analog agreement with V-detector: 0.999956
+  rate_centred    T=   4  agree=0.4068  DR=0.7301  FPR=0.8629  spikes= 11.44  E/dense: synops  0.14x  total  0.19x
+  rate_centred    T=   8  agree=0.4583  DR=0.7256  FPR=0.7970  spikes= 22.90  E/dense: synops  0.28x  total  0.38x
+  rate_centred    T=  16  agree=0.5077  DR=0.7223  FPR=0.7229  spikes= 45.78  E/dense: synops  0.56x  total  0.76x
+  rate_centred    T=  32  agree=0.5816  DR=0.7317  FPR=0.6171  spikes= 91.64  E/dense: synops  1.12x  total  1.51x
+  rate_centred    T=  64  agree=0.6536  DR=0.7475  FPR=0.5155  spikes=183.04  E/dense: synops  2.24x  total  3.02x
+  rate_centred    T= 128  agree=0.7234  DR=0.7686  FPR=0.4222  spikes=366.20  E/dense: synops  4.48x  total  6.04x
+  ttfs_centred    T=   4  agree=0.2296  DR=0.5977  FPR=0.9351  spikes=  7.50  E/dense: synops  0.09x  total  0.14x
+  ttfs_centred    T=   8  agree=0.5305  DR=0.7721  FPR=0.8163  spikes= 11.08  E/dense: synops  0.14x  total  0.23x
+  ttfs_centred    T=  16  agree=0.5767  DR=0.8213  FPR=0.8206  spikes= 12.92  E/dense: synops  0.16x  total  0.35x
+  ttfs_centred    T=  32  agree=0.7553  DR=0.8138  FPR=0.4302  spikes= 14.48  E/dense: synops  0.18x  total  0.57x
+  ttfs_centred    T=  64  agree=0.9162  DR=0.7972  FPR=0.1521  spikes= 15.31  E/dense: synops  0.19x  total  0.97x
+  ttfs_centred    T= 128  agree=0.9665  DR=0.7791  FPR=0.1222  spikes= 15.67  E/dense: synops  0.19x  total  1.76x
+  ttfs_consistent T=   4  agree=0.7664  DR=0.8406  FPR=0.4720  spikes=  8.17  E/dense: synops  0.10x  total  0.15x
+  ttfs_consistent T=   8  agree=0.7645  DR=0.8682  FPR=0.4581  spikes= 11.53  E/dense: synops  0.14x  total  0.24x
+  ttfs_consistent T=  16  agree=0.9069  DR=0.8171  FPR=0.2054  spikes= 13.27  E/dense: synops  0.16x  total  0.36x
+  ttfs_consistent T=  32  agree=0.9760  DR=0.7791  FPR=0.1114  spikes= 14.60  E/dense: synops  0.18x  total  0.57x
+  ttfs_consistent T=  64  agree=0.9905  DR=0.7690  FPR=0.0959  spikes= 15.31  E/dense: synops  0.19x  total  0.97x
+  ttfs_consistent T= 128  agree=0.9929  DR=0.7708  FPR=0.0945  spikes= 15.67  E/dense: synops  0.19x  total  1.76x
+
+wrote results/snn_encodings_canonical.csv

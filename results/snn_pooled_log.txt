@@ -1,0 +1,39 @@
+fold 0 V3_ivda      n= 151 exact DR=0.9284 FPR=0.0021 | ttfs_consistent T=16: agree=0.9560 DR=0.9270 FPR=0.0561
+fold 0 V0_classical n=1500 exact DR=0.8770 FPR=0.0100 | ttfs_consistent T=16: agree=0.9300 DR=0.8885 FPR=0.1073
+fold 1 V3_ivda      n= 126 exact DR=0.9181 FPR=0.0019 | ttfs_consistent T=16: agree=0.9787 DR=0.9120 FPR=0.0160
+fold 1 V0_classical n=1500 exact DR=0.9085 FPR=0.0100 | ttfs_consistent T=16: agree=0.9393 DR=0.9258 FPR=0.0975
+fold 2 V3_ivda      n= 130 exact DR=0.9179 FPR=0.0018 | ttfs_consistent T=16: agree=0.9783 DR=0.9083 FPR=0.0140
+fold 2 V0_classical n=1500 exact DR=0.9103 FPR=0.0108 | ttfs_consistent T=16: agree=0.9226 DR=0.9187 FPR=0.1347
+fold 3 V3_ivda      n= 143 exact DR=0.9317 FPR=0.0029 | ttfs_consistent T=16: agree=0.9754 DR=0.9190 FPR=0.0145
+fold 3 V0_classical n=1500 exact DR=0.8985 FPR=0.0083 | ttfs_consistent T=16: agree=0.9548 DR=0.9111 FPR=0.0683
+fold 4 V3_ivda      n= 133 exact DR=0.9246 FPR=0.0023 | ttfs_consistent T=16: agree=0.9811 DR=0.9099 FPR=0.0103
+fold 4 V0_classical n=1500 exact DR=0.9019 FPR=0.0104 | ttfs_consistent T=16: agree=0.9588 DR=0.9128 FPR=0.0553
+fold 5 V3_ivda      n= 118 exact DR=0.9166 FPR=0.0026 | ttfs_consistent T=16: agree=0.9855 DR=0.9177 FPR=0.0110
+fold 5 V0_classical n=1500 exact DR=0.9082 FPR=0.0126 | ttfs_consistent T=16: agree=0.9286 DR=0.9236 FPR=0.1154
+fold 6 V3_ivda      n= 134 exact DR=0.9232 FPR=0.0022 | ttfs_consistent T=16: agree=0.9785 DR=0.9179 FPR=0.0135
+fold 6 V0_classical n=1500 exact DR=0.8935 FPR=0.0086 | ttfs_consistent T=16: agree=0.9576 DR=0.9072 FPR=0.0626
+fold 7 V3_ivda      n= 125 exact DR=0.9193 FPR=0.0022 | ttfs_consistent T=16: agree=0.9793 DR=0.9170 FPR=0.0152
+fold 7 V0_classical n=1500 exact DR=0.9151 FPR=0.0123 | ttfs_consistent T=16: agree=0.9492 DR=0.9219 FPR=0.0780
+fold 8 V3_ivda      n= 124 exact DR=0.9264 FPR=0.0014 | ttfs_consistent T=16: agree=0.9846 DR=0.9176 FPR=0.0079
+fold 8 V0_classical n=1500 exact DR=0.9061 FPR=0.0099 | ttfs_consistent T=16: agree=0.9506 DR=0.9208 FPR=0.0794
+fold 9 V3_ivda      n= 155 exact DR=0.9286 FPR=0.0018 | ttfs_consistent T=16: agree=0.9698 DR=0.9331 FPR=0.0212
+fold 9 V0_classical n=1500 exact DR=0.8977 FPR=0.0099 | ttfs_consistent T=16: agree=0.9458 DR=0.9174 FPR=0.0799
+
+=== pooled ten-fold, mean over folds ===
+     variant        encoding  T     n_det  agree  agree_min     DR  DR_exact    FPR  FPR_exact  spikes  E_total_pJ  ratio_total  ratio_synops
+V0_classical    ttfs_centred  8 1500.0000 0.5953     0.5555 0.8796    0.9017 0.6713     0.0103  9.8369  24079.8162       0.2181        0.1203
+V0_classical    ttfs_centred 16 1500.0000 0.6287     0.5989 0.9018    0.9017 0.6286     0.0103 12.5286  38513.6732       0.3489        0.1532
+V0_classical    ttfs_centred 32 1500.0000 0.7384     0.7050 0.9072    0.9017 0.4422     0.0103 14.2508  62438.5162       0.5656        0.1743
+V0_classical    ttfs_centred 64 1500.0000 0.9393     0.9331 0.9098    0.9017 0.0836     0.0103 15.2601 107001.1145       0.9692        0.1866
+V0_classical ttfs_consistent  8 1500.0000 0.8921     0.7816 0.9242    0.9017 0.1707     0.0103 10.2204  24597.5297       0.2228        0.1250
+V0_classical ttfs_consistent 16 1500.0000 0.9437     0.9226 0.9148    0.9017 0.0878     0.0103 12.8117  38895.7294       0.3523        0.1567
+V0_classical ttfs_consistent 32 1500.0000 0.9742     0.9667 0.9090    0.9017 0.0417     0.0103 14.4482  62705.0947       0.5680        0.1767
+V0_classical ttfs_consistent 64 1500.0000 0.9858     0.9824 0.9062    0.9017 0.0256     0.0103 15.2601 107001.1145       0.9692        0.1866
+     V3_ivda    ttfs_centred  8  133.9000 0.7436     0.6347 0.8474    0.9235 0.3688     0.0021  9.8369   2149.4617       0.2181        0.1203
+     V3_ivda    ttfs_centred 16  133.9000 0.8499     0.6812 0.8805    0.9235 0.2012     0.0021 12.5286   3437.9993       0.3489        0.1532
+     V3_ivda    ttfs_centred 32  133.9000 0.8784     0.7641 0.8824    0.9235 0.1603     0.0021 14.2508   5573.6963       0.5656        0.1743
+     V3_ivda    ttfs_centred 64  133.9000 0.9741     0.9690 0.9100    0.9235 0.0142     0.0021 15.2601   9551.6962       0.9692        0.1866
+     V3_ivda ttfs_consistent  8  133.9000 0.9524     0.8484 0.9158    0.9235 0.0525     0.0021 10.2204   2195.6952       0.2228        0.1250
+     V3_ivda ttfs_consistent 16  133.9000 0.9767     0.9560 0.9179    0.9235 0.0180     0.0021 12.8117   3472.1148       0.3523        0.1567
+     V3_ivda ttfs_consistent 32  133.9000 0.9898     0.9854 0.9220    0.9235 0.0067     0.0021 14.4482   5597.4964       0.5680        0.1767
+     V3_ivda ttfs_consistent 64  133.9000 0.9935     0.9911 0.9228    0.9235 0.0052     0.0021 15.2601   9551.6962       0.9692        0.1866

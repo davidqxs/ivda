@@ -1,0 +1,106 @@
+NSL-KDD fold 0 done
+NSL-KDD fold 1 done
+NSL-KDD fold 2 done
+NSL-KDD fold 3 done
+NSL-KDD fold 4 done
+NSL-KDD fold 5 done
+NSL-KDD fold 6 done
+NSL-KDD fold 7 done
+NSL-KDD fold 8 done
+NSL-KDD fold 9 done
+UNSW seed 0 V3_ivda      n= 119 exact DR=0.6871 FPR=0.0035
+UNSW seed 0 V0_classical n=1500 exact DR=0.6602 FPR=0.0166
+UNSW seed 1 V3_ivda      n= 156 exact DR=0.7084 FPR=0.0054
+UNSW seed 1 V0_classical n=1500 exact DR=0.6536 FPR=0.0167
+UNSW seed 2 V3_ivda      n= 127 exact DR=0.6804 FPR=0.0046
+UNSW seed 2 V0_classical n=1500 exact DR=0.6517 FPR=0.0179
+UNSW seed 3 V3_ivda      n= 153 exact DR=0.6913 FPR=0.0032
+UNSW seed 3 V0_classical n=1500 exact DR=0.6402 FPR=0.0153
+UNSW seed 4 V3_ivda      n= 141 exact DR=0.6932 FPR=0.0044
+UNSW seed 4 V0_classical n=1500 exact DR=0.6694 FPR=0.0183
+
+=== SNN fidelity and energy (mean over folds/seeds) ===
+  dataset      variant          guard  T     n_det  agree     DR  DR_sd  DR_exact    FPR  FPR_max  FPR_exact  spikes  E_total_pJ  E_dense_pJ  ratio_total
+  NSL-KDD V0_classical      certified  8 1500.0000 0.6846 0.2573 0.0859    0.9017 0.0001   0.0003     0.0103 10.2204  24597.5297 110400.0000       0.2228
+  NSL-KDD V0_classical      certified 16 1500.0000 0.8252 0.5492 0.1262    0.9017 0.0004   0.0005     0.0103 12.8117  38895.7294 110400.0000       0.3523
+  NSL-KDD V0_classical      certified 32 1500.0000 0.9287 0.7636 0.0899    0.9017 0.0009   0.0014     0.0103 14.4482  62705.0947 110400.0000       0.5680
+  NSL-KDD V0_classical      certified 64 1500.0000 0.9705 0.8494 0.0223    0.9017 0.0019   0.0026     0.0103 15.2601 107001.1145 110400.0000       0.9692
+  NSL-KDD V0_classical exact_tolerant  8 1500.0000    NaN 0.8671 0.0140    0.9017 0.0039   0.0052     0.0103     NaN         NaN 110400.0000          NaN
+  NSL-KDD V0_classical exact_tolerant 16 1500.0000    NaN 0.8827 0.0112    0.9017 0.0050   0.0058     0.0103     NaN         NaN 110400.0000          NaN
+  NSL-KDD V0_classical exact_tolerant 32 1500.0000    NaN 0.8909 0.0115    0.9017 0.0059   0.0073     0.0103     NaN         NaN 110400.0000          NaN
+  NSL-KDD V0_classical exact_tolerant 64 1500.0000    NaN 0.8961 0.0103    0.9017 0.0070   0.0091     0.0103     NaN         NaN 110400.0000          NaN
+  NSL-KDD V0_classical           none  8 1500.0000 0.8921 0.9242 0.0116    0.9017 0.1707   0.3399     0.0103 10.2204  24597.5297 110400.0000       0.2228
+  NSL-KDD V0_classical           none 16 1500.0000 0.9437 0.9148 0.0109    0.9017 0.0878   0.1347     0.0103 12.8117  38895.7294 110400.0000       0.3523
+  NSL-KDD V0_classical           none 32 1500.0000 0.9742 0.9090 0.0110    0.9017 0.0417   0.0548     0.0103 14.4482  62705.0947 110400.0000       0.5680
+  NSL-KDD V0_classical           none 64 1500.0000 0.9858 0.9062 0.0103    0.9017 0.0256   0.0282     0.0103 15.2601 107001.1145 110400.0000       0.9692
+  NSL-KDD V0_classical  self_tolerant  8 1500.0000 0.9725 0.8678 0.0148    0.9017 0.0071   0.0099     0.0103 10.2204  24597.5297 110400.0000       0.2228
+  NSL-KDD V0_classical  self_tolerant 16 1500.0000 0.9835 0.8871 0.0102    0.9017 0.0076   0.0100     0.0103 12.8117  38895.7294 110400.0000       0.3523
+  NSL-KDD V0_classical  self_tolerant 32 1500.0000 0.9891 0.8937 0.0116    0.9017 0.0085   0.0123     0.0103 14.4482  62705.0947 110400.0000       0.5680
+  NSL-KDD V0_classical  self_tolerant 64 1500.0000 0.9931 0.8977 0.0104    0.9017 0.0085   0.0108     0.0103 15.2601 107001.1145 110400.0000       0.9692
+  NSL-KDD      V3_ivda      certified  8  133.9000 0.5994 0.0932 0.0622    0.9235 0.0000   0.0000     0.0021 10.2204   2195.6952   9855.0400       0.2228
+  NSL-KDD      V3_ivda      certified 16  133.9000 0.7588 0.4245 0.1525    0.9235 0.0001   0.0003     0.0021 12.8117   3472.1148   9855.0400       0.3523
+  NSL-KDD      V3_ivda      certified 32  133.9000 0.8776 0.6711 0.1326    0.9235 0.0002   0.0008     0.0021 14.4482   5597.4964   9855.0400       0.5680
+  NSL-KDD      V3_ivda      certified 64  133.9000 0.9537 0.8290 0.0315    0.9235 0.0005   0.0009     0.0021 15.2601   9551.6962   9855.0400       0.9692
+  NSL-KDD      V3_ivda exact_tolerant  8  133.9000    NaN 0.8407 0.0323    0.9235 0.0007   0.0012     0.0021     NaN         NaN   9855.0400          NaN
+  NSL-KDD      V3_ivda exact_tolerant 16  133.9000    NaN 0.8870 0.0063    0.9235 0.0010   0.0018     0.0021     NaN         NaN   9855.0400          NaN
+  NSL-KDD      V3_ivda exact_tolerant 32  133.9000    NaN 0.9047 0.0044    0.9235 0.0011   0.0016     0.0021     NaN         NaN   9855.0400          NaN
+  NSL-KDD      V3_ivda exact_tolerant 64  133.9000    NaN 0.9134 0.0050    0.9235 0.0015   0.0022     0.0021     NaN         NaN   9855.0400          NaN
+  NSL-KDD      V3_ivda           none  8  133.9000 0.9524 0.9158 0.0126    0.9235 0.0525   0.2560     0.0021 10.2204   2195.6952   9855.0400       0.2228
+  NSL-KDD      V3_ivda           none 16  133.9000 0.9767 0.9179 0.0075    0.9235 0.0180   0.0561     0.0021 12.8117   3472.1148   9855.0400       0.3523
+  NSL-KDD      V3_ivda           none 32  133.9000 0.9898 0.9220 0.0058    0.9235 0.0067   0.0108     0.0021 14.4482   5597.4964   9855.0400       0.5680
+  NSL-KDD      V3_ivda           none 64  133.9000 0.9935 0.9228 0.0055    0.9235 0.0052   0.0070     0.0021 15.2601   9551.6962   9855.0400       0.9692
+  NSL-KDD      V3_ivda  self_tolerant  8  133.9000 0.9487 0.8249 0.0405    0.9235 0.0014   0.0019     0.0021 10.2204   2195.6952   9855.0400       0.2228
+  NSL-KDD      V3_ivda  self_tolerant 16  133.9000 0.9771 0.8838 0.0092    0.9235 0.0014   0.0021     0.0021 12.8117   3472.1148   9855.0400       0.3523
+  NSL-KDD      V3_ivda  self_tolerant 32  133.9000 0.9884 0.9054 0.0045    0.9235 0.0015   0.0019     0.0021 14.4482   5597.4964   9855.0400       0.5680
+  NSL-KDD      V3_ivda  self_tolerant 64  133.9000 0.9929 0.9140 0.0053    0.9235 0.0017   0.0025     0.0021 15.2601   9551.6962   9855.0400       0.9692
+UNSW-NB15 V0_classical      certified  8 1500.0000 0.8126 0.3877 0.0875    0.6550 0.0001   0.0001     0.0170 10.5031  24979.1383 110400.0000       0.2263
+UNSW-NB15 V0_classical      certified 16 1500.0000 0.8724 0.4753 0.0101    0.6550 0.0002   0.0004     0.0170 12.7354  38792.7999 110400.0000       0.3514
+UNSW-NB15 V0_classical      certified 32 1500.0000 0.9059 0.5244 0.0064    0.6550 0.0008   0.0010     0.0170 14.2284  62408.3877 110400.0000       0.5653
+UNSW-NB15 V0_classical      certified 64 1500.0000 0.9340 0.5652 0.0079    0.6550 0.0018   0.0020     0.0170 15.1007 106785.9277 110400.0000       0.9673
+UNSW-NB15 V0_classical exact_tolerant  8 1500.0000    NaN 0.6183 0.0109    0.6550 0.0048   0.0053     0.0170     NaN         NaN 110400.0000          NaN
+UNSW-NB15 V0_classical exact_tolerant 16 1500.0000    NaN 0.6233 0.0129    0.6550 0.0055   0.0057     0.0170     NaN         NaN 110400.0000          NaN
+UNSW-NB15 V0_classical exact_tolerant 32 1500.0000    NaN 0.6315 0.0077    0.6550 0.0069   0.0073     0.0170     NaN         NaN 110400.0000          NaN
+UNSW-NB15 V0_classical exact_tolerant 64 1500.0000    NaN 0.6423 0.0108    0.6550 0.0088   0.0093     0.0170     NaN         NaN 110400.0000          NaN
+UNSW-NB15 V0_classical           none  8 1500.0000 0.7250 0.8021 0.0290    0.6550 0.5330   0.5984     0.0170 10.5031  24979.1383 110400.0000       0.2263
+UNSW-NB15 V0_classical           none 16 1500.0000 0.8369 0.7380 0.0095    0.6550 0.3209   0.3596     0.0170 12.7354  38792.7999 110400.0000       0.3514
+UNSW-NB15 V0_classical           none 32 1500.0000 0.8992 0.6928 0.0155    0.6550 0.2264   0.2786     0.0170 14.2284  62408.3877 110400.0000       0.5653
+UNSW-NB15 V0_classical           none 64 1500.0000 0.9422 0.6762 0.0051    0.6550 0.1283   0.1920     0.0170 15.1007 106785.9277 110400.0000       0.9673
+UNSW-NB15 V0_classical  self_tolerant  8 1500.0000 0.9645 0.6341 0.0057    0.6550 0.0083   0.0088     0.0170 10.5031  24979.1383 110400.0000       0.2263
+UNSW-NB15 V0_classical  self_tolerant 16 1500.0000 0.9621 0.6223 0.0042    0.6550 0.0105   0.0113     0.0170 12.7354  38792.7999 110400.0000       0.3514
+UNSW-NB15 V0_classical  self_tolerant 32 1500.0000 0.9741 0.6371 0.0060    0.6550 0.0117   0.0123     0.0170 14.2284  62408.3877 110400.0000       0.5653
+UNSW-NB15 V0_classical  self_tolerant 64 1500.0000 0.9840 0.6483 0.0084    0.6550 0.0116   0.0121     0.0170 15.1007 106785.9277 110400.0000       0.9673
+UNSW-NB15      V3_ivda      certified  8  139.2000 0.6887 0.2366 0.1133    0.6921 0.0000   0.0001     0.0042 10.5031   2318.0640  10245.1200       0.2263
+UNSW-NB15      V3_ivda      certified 16  139.2000 0.8187 0.4276 0.0426    0.6921 0.0001   0.0003     0.0042 12.7354   3599.9718  10245.1200       0.3514
+UNSW-NB15      V3_ivda      certified 32  139.2000 0.8719 0.5057 0.0125    0.6921 0.0003   0.0005     0.0042 14.2284   5791.4984  10245.1200       0.5653
+UNSW-NB15      V3_ivda      certified 64  139.2000 0.9095 0.5607 0.0101    0.6921 0.0008   0.0012     0.0042 15.1007   9909.7341  10245.1200       0.9673
+UNSW-NB15      V3_ivda exact_tolerant  8  139.2000    NaN 0.6271 0.0131    0.6921 0.0015   0.0018     0.0042     NaN         NaN  10245.1200          NaN
+UNSW-NB15      V3_ivda exact_tolerant 16  139.2000    NaN 0.6395 0.0075    0.6921 0.0016   0.0018     0.0042     NaN         NaN  10245.1200          NaN
+UNSW-NB15      V3_ivda exact_tolerant 32  139.2000    NaN 0.6509 0.0077    0.6921 0.0023   0.0027     0.0042     NaN         NaN  10245.1200          NaN
+UNSW-NB15      V3_ivda exact_tolerant 64  139.2000    NaN 0.6685 0.0057    0.6921 0.0026   0.0029     0.0042     NaN         NaN  10245.1200          NaN
+UNSW-NB15      V3_ivda           none  8  139.2000 0.8675 0.7942 0.0424    0.6921 0.1273   0.2852     0.0042 10.5031   2318.0640  10245.1200       0.2263
+UNSW-NB15      V3_ivda           none 16  139.2000 0.9259 0.7516 0.0299    0.6921 0.0498   0.0762     0.0042 12.7354   3599.9718  10245.1200       0.3514
+UNSW-NB15      V3_ivda           none 32  139.2000 0.9630 0.7143 0.0239    0.6921 0.0187   0.0261     0.0042 14.2284   5791.4984  10245.1200       0.5653
+UNSW-NB15      V3_ivda           none 64  139.2000 0.9813 0.6965 0.0124    0.6921 0.0093   0.0136     0.0042 15.1007   9909.7341  10245.1200       0.9673
+UNSW-NB15      V3_ivda  self_tolerant  8  139.2000 0.9408 0.6235 0.0124    0.6921 0.0022   0.0029     0.0042 10.5031   2318.0640  10245.1200       0.2263
+UNSW-NB15      V3_ivda  self_tolerant 16  139.2000 0.9457 0.6286 0.0050    0.6921 0.0023   0.0028     0.0042 12.7354   3599.9718  10245.1200       0.3514
+UNSW-NB15      V3_ivda  self_tolerant 32  139.2000 0.9627 0.6527 0.0076    0.6921 0.0031   0.0043     0.0042 14.2284   5791.4984  10245.1200       0.5653
+UNSW-NB15      V3_ivda  self_tolerant 64  139.2000 0.9797 0.6714 0.0080    0.6921 0.0032   0.0037     0.0042 15.1007   9909.7341  10245.1200       0.9673
+
+=== per-detector self-tolerant vs best uniform shrink at matched FPR ===
+    (uniform picks its alpha post hoc on test data; self-tolerant is untuned)
+  NSL-KDD   V0_classical T=  8  DR_tol=0.8671 DR_unif=0.8855  gain=-1.84 pts  wins 0/10 ties 0  alpha*=0.9937  Wilcoxon p=0.001953  t p=0.0002248
+  NSL-KDD   V0_classical T= 16  DR_tol=0.8827 DR_unif=0.8915  gain=-0.87 pts  wins 0/10 ties 0  alpha*=0.9963  Wilcoxon p=0.001953  t p=9.122e-06
+  NSL-KDD   V0_classical T= 32  DR_tol=0.8909 DR_unif=0.8945  gain=-0.37 pts  wins 0/10 ties 0  alpha*=0.9976  Wilcoxon p=0.001953  t p=0.002405
+  NSL-KDD   V0_classical T= 64  DR_tol=0.8961 DR_unif=0.8976  gain=-0.15 pts  wins 0/10 ties 0  alpha*=0.9988  Wilcoxon p=0.001953  t p=0.001764
+  NSL-KDD   V3_ivda      T=  8  DR_tol=0.8407 DR_unif=0.8889  gain=-4.82 pts  wins 0/10 ties 0  alpha*=0.9919  Wilcoxon p=0.001953  t p=0.0004398
+  NSL-KDD   V3_ivda      T= 16  DR_tol=0.8870 DR_unif=0.9039  gain=-1.68 pts  wins 2/10 ties 0  alpha*=0.9958  Wilcoxon p=0.009766  t p=0.004497
+  NSL-KDD   V3_ivda      T= 32  DR_tol=0.9047 DR_unif=0.9108  gain=-0.61 pts  wins 2/10 ties 0  alpha*=0.9971  Wilcoxon p=0.04883  t p=0.0293
+  NSL-KDD   V3_ivda      T= 64  DR_tol=0.9134 DR_unif=0.9177  gain=-0.43 pts  wins 1/10 ties 0  alpha*=0.9989  Wilcoxon p=0.003906  t p=0.0007445
+  UNSW-NB15 V0_classical T=  8  DR_tol=0.6183 DR_unif=0.6124  gain=+0.60 pts  wins 3/5 ties 0  alpha*=0.9941  Wilcoxon p=0.3125  t p=0.1054
+  UNSW-NB15 V0_classical T= 16  DR_tol=0.6233 DR_unif=0.6181  gain=+0.52 pts  wins 3/5 ties 0  alpha*=0.9951  Wilcoxon p=0.3125  t p=0.2746
+  UNSW-NB15 V0_classical T= 32  DR_tol=0.6315 DR_unif=0.6278  gain=+0.37 pts  wins 2/5 ties 0  alpha*=0.9967  Wilcoxon p=0.8125  t p=0.3276
+  UNSW-NB15 V0_classical T= 64  DR_tol=0.6423 DR_unif=0.6406  gain=+0.17 pts  wins 5/5 ties 0  alpha*=0.9985  Wilcoxon p=0.0625  t p=0.03298
+  UNSW-NB15 V3_ivda      T=  8  DR_tol=0.6271 DR_unif=0.6148  gain=+1.23 pts  wins 3/5 ties 0  alpha*=0.9920  Wilcoxon p=0.4375  t p=0.2845
+  UNSW-NB15 V3_ivda      T= 16  DR_tol=0.6395 DR_unif=0.6213  gain=+1.82 pts  wins 4/5 ties 0  alpha*=0.9932  Wilcoxon p=0.125  t p=0.03777
+  UNSW-NB15 V3_ivda      T= 32  DR_tol=0.6509 DR_unif=0.6492  gain=+0.17 pts  wins 4/5 ties 0  alpha*=0.9967  Wilcoxon p=0.4375  t p=0.5114
+  UNSW-NB15 V3_ivda      T= 64  DR_tol=0.6685 DR_unif=0.6578  gain=+1.07 pts  wins 4/5 ties 0  alpha*=0.9975  Wilcoxon p=0.125  t p=0.05111

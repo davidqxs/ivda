@@ -1,0 +1,47 @@
+fold 0 V3_ivda      exact DR=0.9284 FPR=0.0021 | T=16 none: DR=0.9270 FPR=0.0561  self_tolerant: DR=0.8890 FPR=0.0009  certified: DR=0.2586 FPR=0.0001
+fold 0 V0_classical exact DR=0.8770 FPR=0.0100 | T=16 none: DR=0.8885 FPR=0.1073  self_tolerant: DR=0.8633 FPR=0.0051  certified: DR=0.5018 FPR=0.0004
+fold 1 V3_ivda      exact DR=0.9183 FPR=0.0019 | T=16 none: DR=0.9120 FPR=0.0160  self_tolerant: DR=0.8764 FPR=0.0014  certified: DR=0.4265 FPR=0.0003
+fold 1 V0_classical exact DR=0.9085 FPR=0.0100 | T=16 none: DR=0.9258 FPR=0.0975  self_tolerant: DR=0.8924 FPR=0.0073  certified: DR=0.7685 FPR=0.0004
+fold 2 V3_ivda      exact DR=0.9179 FPR=0.0018 | T=16 none: DR=0.9083 FPR=0.0140  self_tolerant: DR=0.8815 FPR=0.0013  certified: DR=0.4044 FPR=0.0001
+fold 2 V0_classical exact DR=0.9103 FPR=0.0108 | T=16 none: DR=0.9187 FPR=0.1347  self_tolerant: DR=0.8984 FPR=0.0087  certified: DR=0.4649 FPR=0.0005
+fold 3 V3_ivda      exact DR=0.9318 FPR=0.0029 | T=16 none: DR=0.9190 FPR=0.0145  self_tolerant: DR=0.8755 FPR=0.0013  certified: DR=0.3689 FPR=0.0000
+fold 3 V0_classical exact DR=0.8985 FPR=0.0083 | T=16 none: DR=0.9111 FPR=0.0683  self_tolerant: DR=0.8823 FPR=0.0057  certified: DR=0.4999 FPR=0.0001
+fold 4 V3_ivda      exact DR=0.9246 FPR=0.0023 | T=16 none: DR=0.9099 FPR=0.0103  self_tolerant: DR=0.8788 FPR=0.0021  certified: DR=0.2929 FPR=0.0000
+fold 4 V0_classical exact DR=0.9019 FPR=0.0104 | T=16 none: DR=0.9128 FPR=0.0553  self_tolerant: DR=0.8858 FPR=0.0077  certified: DR=0.4845 FPR=0.0004
+fold 5 V3_ivda      exact DR=0.9166 FPR=0.0026 | T=16 none: DR=0.9177 FPR=0.0110  self_tolerant: DR=0.8960 FPR=0.0018  certified: DR=0.5318 FPR=0.0003
+fold 5 V0_classical exact DR=0.9082 FPR=0.0126 | T=16 none: DR=0.9236 FPR=0.1154  self_tolerant: DR=0.8952 FPR=0.0078  certified: DR=0.7918 FPR=0.0003
+fold 6 V3_ivda      exact DR=0.9232 FPR=0.0022 | T=16 none: DR=0.9179 FPR=0.0135  self_tolerant: DR=0.8763 FPR=0.0013  certified: DR=0.5963 FPR=0.0000
+fold 6 V0_classical exact DR=0.8935 FPR=0.0086 | T=16 none: DR=0.9072 FPR=0.0626  self_tolerant: DR=0.8846 FPR=0.0079  certified: DR=0.5066 FPR=0.0003
+fold 7 V3_ivda      exact DR=0.9193 FPR=0.0022 | T=16 none: DR=0.9170 FPR=0.0152  self_tolerant: DR=0.8911 FPR=0.0014  certified: DR=0.5115 FPR=0.0001
+fold 7 V0_classical exact DR=0.9151 FPR=0.0123 | T=16 none: DR=0.9219 FPR=0.0780  self_tolerant: DR=0.8890 FPR=0.0100  certified: DR=0.5603 FPR=0.0004
+fold 8 V3_ivda      exact DR=0.9264 FPR=0.0014 | T=16 none: DR=0.9176 FPR=0.0079  self_tolerant: DR=0.8992 FPR=0.0016  certified: DR=0.6639 FPR=0.0000
+fold 8 V0_classical exact DR=0.9061 FPR=0.0099 | T=16 none: DR=0.9208 FPR=0.0794  self_tolerant: DR=0.8966 FPR=0.0078  certified: DR=0.4831 FPR=0.0003
+fold 9 V3_ivda      exact DR=0.9286 FPR=0.0018 | T=16 none: DR=0.9331 FPR=0.0212  self_tolerant: DR=0.8745 FPR=0.0009  certified: DR=0.1902 FPR=0.0000
+fold 9 V0_classical exact DR=0.8977 FPR=0.0099 | T=16 none: DR=0.9174 FPR=0.0799  self_tolerant: DR=0.8833 FPR=0.0080  certified: DR=0.4302 FPR=0.0005
+
+=== pooled ten-fold, consistent TTFS, mean over folds ===
+     variant         guard  T  agree     DR  DR_exact    FPR  FPR_max  FPR_exact    shrunk  mean_shrink  E_total_pJ  ratio_total
+V0_classical     certified  8 0.6846 0.2573    0.9017 0.0001   0.0003     0.0103 1500.0000       0.1717  24597.5297       0.2228
+V0_classical     certified 16 0.8252 0.5492    0.9017 0.0004   0.0005     0.0103 1500.0000       0.0858  38895.7294       0.3523
+V0_classical     certified 32 0.9287 0.7636    0.9017 0.0009   0.0014     0.0103 1500.0000       0.0429  62705.0947       0.5680
+V0_classical     certified 64 0.9705 0.8494    0.9017 0.0019   0.0026     0.0103 1500.0000       0.0215 107001.1145       0.9692
+V0_classical          none  8 0.8921 0.9242    0.9017 0.1707   0.3399     0.0103    0.0000       0.0000  24597.5297       0.2228
+V0_classical          none 16 0.9437 0.9148    0.9017 0.0878   0.1347     0.0103    0.0000       0.0000  38895.7294       0.3523
+V0_classical          none 32 0.9742 0.9090    0.9017 0.0417   0.0548     0.0103    0.0000       0.0000  62705.0947       0.5680
+V0_classical          none 64 0.9858 0.9062    0.9017 0.0256   0.0282     0.0103    0.0000       0.0000 107001.1145       0.9692
+V0_classical self_tolerant  8 0.9725 0.8678    0.9017 0.0071   0.0099     0.0103 1500.0000       0.0164  24597.5297       0.2228
+V0_classical self_tolerant 16 0.9835 0.8871    0.9017 0.0076   0.0100     0.0103 1500.0000       0.0078  38895.7294       0.3523
+V0_classical self_tolerant 32 0.9891 0.8937    0.9017 0.0085   0.0123     0.0103 1500.0000       0.0035  62705.0947       0.5680
+V0_classical self_tolerant 64 0.9931 0.8977    0.9017 0.0085   0.0108     0.0103 1500.0000       0.0016 107001.1145       0.9692
+     V3_ivda     certified  8 0.5994 0.0932    0.9235 0.0000   0.0000     0.0021  133.9000       0.1660   2195.6952       0.2228
+     V3_ivda     certified 16 0.7588 0.4245    0.9235 0.0001   0.0003     0.0021  133.9000       0.0830   3472.1148       0.3523
+     V3_ivda     certified 32 0.8776 0.6711    0.9235 0.0002   0.0008     0.0021  133.9000       0.0415   5597.4964       0.5680
+     V3_ivda     certified 64 0.9537 0.8290    0.9235 0.0005   0.0009     0.0021  133.9000       0.0208   9551.6962       0.9692
+     V3_ivda          none  8 0.9524 0.9158    0.9235 0.0525   0.2560     0.0021    0.0000       0.0000   2195.6952       0.2228
+     V3_ivda          none 16 0.9767 0.9179    0.9235 0.0180   0.0561     0.0021    0.0000       0.0000   3472.1148       0.3523
+     V3_ivda          none 32 0.9898 0.9220    0.9235 0.0067   0.0108     0.0021    0.0000       0.0000   5597.4964       0.5680
+     V3_ivda          none 64 0.9935 0.9228    0.9235 0.0052   0.0070     0.0021    0.0000       0.0000   9551.6962       0.9692
+     V3_ivda self_tolerant  8 0.9487 0.8249    0.9235 0.0014   0.0019     0.0021  133.9000       0.0204   2195.6952       0.2228
+     V3_ivda self_tolerant 16 0.9771 0.8838    0.9235 0.0014   0.0021     0.0021  133.9000       0.0093   3472.1148       0.3523
+     V3_ivda self_tolerant 32 0.9884 0.9054    0.9235 0.0015   0.0019     0.0021  133.9000       0.0039   5597.4964       0.5680
+     V3_ivda self_tolerant 64 0.9929 0.9140    0.9235 0.0017   0.0025     0.0021  133.9000       0.0017   9551.6962       0.9692

@@ -1,0 +1,48 @@
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+fold 5 done
+fold 6 done
+fold 7 done
+fold 8 done
+fold 9 done
+
+=== V3_ivda (mean over ten folds) ===
+variant           kind   param     DR    FPR
+V3_ivda    exact_curve  0.8000 0.0228 0.0000
+V3_ivda    exact_curve  0.8500 0.1323 0.0000
+V3_ivda    exact_curve  0.9000 0.3342 0.0001
+V3_ivda    exact_curve  0.9200 0.4124 0.0001
+V3_ivda    exact_curve  0.9400 0.5290 0.0002
+V3_ivda    exact_curve  0.9600 0.6640 0.0003
+V3_ivda    exact_curve  0.9700 0.7488 0.0004
+V3_ivda    exact_curve  0.9800 0.8332 0.0005
+V3_ivda    exact_curve  0.9900 0.8807 0.0006
+V3_ivda    exact_curve  1.0000 0.9235 0.0021
+V3_ivda exact_tolerant 16.0000 0.8870 0.0010
+V3_ivda exact_tolerant 32.0000 0.9047 0.0011
+V3_ivda exact_tolerant 64.0000 0.9134 0.0015
+V3_ivda   snn_tolerant 16.0000 0.8838 0.0014
+V3_ivda   snn_tolerant 32.0000 0.9054 0.0015
+V3_ivda   snn_tolerant 64.0000 0.9140 0.0017
+
+=== V0_classical (mean over ten folds) ===
+     variant           kind   param     DR    FPR
+V0_classical    exact_curve  0.8000 0.0743 0.0000
+V0_classical    exact_curve  0.8500 0.2685 0.0001
+V0_classical    exact_curve  0.9000 0.4605 0.0002
+V0_classical    exact_curve  0.9200 0.5366 0.0004
+V0_classical    exact_curve  0.9400 0.6639 0.0006
+V0_classical    exact_curve  0.9600 0.7658 0.0011
+V0_classical    exact_curve  0.9700 0.8131 0.0013
+V0_classical    exact_curve  0.9800 0.8529 0.0020
+V0_classical    exact_curve  0.9900 0.8768 0.0031
+V0_classical    exact_curve  1.0000 0.9017 0.0103
+V0_classical exact_tolerant 16.0000 0.8827 0.0050
+V0_classical exact_tolerant 32.0000 0.8909 0.0059
+V0_classical exact_tolerant 64.0000 0.8961 0.0070
+V0_classical   snn_tolerant 16.0000 0.8871 0.0076
+V0_classical   snn_tolerant 32.0000 0.8937 0.0085
+V0_classical   snn_tolerant 64.0000 0.8977 0.0085

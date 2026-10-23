@@ -1,0 +1,28 @@
+Loading NSL-KDD (canonical KDDTrain+/KDDTest+ split)...
+train N=125973, test N=22544, dims=15
+  train classes: {'DoS': 45927, 'Probe': 11656, 'R2L': 995, 'U2R': 52, 'normal': 67343}
+  test  classes: {'DoS': 7460, 'Probe': 2421, 'R2L': 2885, 'U2R': 67, 'normal': 9711}
+  attack types in KDDTest+ absent from KDDTrain+: 17 -> ['apache2', 'httptunnel', 'mailbomb', 'mscan', 'named', 'processtable', 'ps', 'saint', 'sendmail', 'snmpgetattack', 'snmpguess', 'sqlattack', 'udpstorm', 'worm', 'xlock', 'xsnoop', 'xterm']
+  seed 0 V0_classical: DR=0.7675 FPR=0.0899 Acc=0.8289 n_det=1500 t=2.3s
+  seed 0 V3_full_binary: DR=0.6313 FPR=0.0742 Acc=0.7582 n_det=100 t=10.2s
+  seed 0 V4_full_multiclass: Acc=0.7476 n_det=336 t=31.7s
+  seed 1 V0_classical: DR=0.7845 FPR=0.1000 Acc=0.8342 n_det=1500 t=3.1s
+  seed 1 V3_full_binary: DR=0.5827 FPR=0.0706 Acc=0.7320 n_det=71 t=7.3s
+  seed 1 V4_full_multiclass: Acc=0.7656 n_det=361 t=33.4s
+  seed 2 V0_classical: DR=0.8151 FPR=0.0997 Acc=0.8518 n_det=1500 t=2.3s
+  seed 2 V3_full_binary: DR=0.6221 FPR=0.0729 Acc=0.7535 n_det=83 t=8.1s
+  seed 2 V4_full_multiclass: Acc=0.7542 n_det=366 t=32.2s
+  seed 3 V0_classical: DR=0.7793 FPR=0.0972 Acc=0.8325 n_det=1500 t=2.5s
+  seed 3 V3_full_binary: DR=0.6146 FPR=0.0746 Acc=0.7485 n_det=78 t=5.9s
+  seed 3 V4_full_multiclass: Acc=0.7455 n_det=357 t=29.5s
+  seed 4 V0_classical: DR=0.7863 FPR=0.0985 Acc=0.8359 n_det=1500 t=2.4s
+  seed 4 V3_full_binary: DR=0.6326 FPR=0.0781 Acc=0.7572 n_det=73 t=5.6s
+  seed 4 V4_full_multiclass: Acc=0.7589 n_det=321 t=32.5s
+
+=== canonical split summary (mean +/- SD over 5 seeds) ===
+           variant  DR_mean    DR_sd  FPR_mean   FPR_sd  Acc_mean   Acc_sd  n_det_mean  n_det_sd  train_time_mean  infer_time_mean  n_seeds
+      V0_classical 0.786519 0.017571  0.097065 0.004153  0.836666 0.008846      1500.0  0.000000         2.512947         0.000221        5
+    V3_full_binary 0.616676 0.020346  0.074081 0.002705  0.749885 0.010678        81.0 11.597414         7.420187         0.000006        5
+V4_full_multiclass      NaN      NaN       NaN      NaN  0.754356 0.008237       348.2 19.018412        31.834917         0.000918        5
+
+wrote results/nslkdd_canonical_runs.csv and results/nslkdd_canonical_summary.csv

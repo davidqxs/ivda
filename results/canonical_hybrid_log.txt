@@ -1,0 +1,54 @@
+test: 9711 normal, 9083 seen-type attacks, 3750 unseen-type attacks
+seed 0: boundary-aware set = 100 detectors, classical pool = 1500 (fit 8.6s)
+    fill=   0 (total  100): DR_seen=0.7269 DR_unseen=0.4000 DR_all=0.6313 FPR=0.0742 Acc=0.7582
+    fill=  50 (total  150): DR_seen=0.7286 DR_unseen=0.4171 DR_all=0.6376 FPR=0.0745 Acc=0.7616
+    fill= 100 (total  200): DR_seen=0.7297 DR_unseen=0.5093 DR_all=0.6653 FPR=0.0770 Acc=0.7763
+    fill= 200 (total  300): DR_seen=0.7322 DR_unseen=0.5877 DR_all=0.6900 FPR=0.0797 Acc=0.7892
+    fill= 400 (total  500): DR_seen=0.7365 DR_unseen=0.6533 DR_all=0.7122 FPR=0.0869 Acc=0.7987
+    fill= 800 (total  900): DR_seen=0.7376 DR_unseen=0.6683 DR_all=0.7174 FPR=0.0914 Acc=0.7997
+    fill=1500 (total 1600): DR_seen=0.7638 DR_unseen=0.7587 DR_all=0.7623 FPR=0.0992 Acc=0.8220
+seed 1: boundary-aware set = 71 detectors, classical pool = 1500 (fit 8.1s)
+    fill=   0 (total   71): DR_seen=0.7127 DR_unseen=0.2680 DR_all=0.5827 FPR=0.0706 Acc=0.7320
+    fill=  50 (total  121): DR_seen=0.7157 DR_unseen=0.3379 DR_all=0.6053 FPR=0.0711 Acc=0.7447
+    fill= 100 (total  171): DR_seen=0.7167 DR_unseen=0.4211 DR_all=0.6303 FPR=0.0727 Acc=0.7583
+    fill= 200 (total  271): DR_seen=0.7284 DR_unseen=0.4357 DR_all=0.6429 FPR=0.0794 Acc=0.7625
+    fill= 400 (total  471): DR_seen=0.7629 DR_unseen=0.5619 DR_all=0.7041 FPR=0.0822 Acc=0.7962
+    fill= 800 (total  871): DR_seen=0.8199 DR_unseen=0.7509 DR_all=0.7997 FPR=0.0928 Acc=0.8460
+    fill=1500 (total 1571): DR_seen=0.8356 DR_unseen=0.7819 DR_all=0.8199 FPR=0.0962 Acc=0.8561
+seed 2: boundary-aware set = 83 detectors, classical pool = 1500 (fit 8.7s)
+    fill=   0 (total   83): DR_seen=0.7140 DR_unseen=0.3997 DR_all=0.6221 FPR=0.0729 Acc=0.7535
+    fill=  50 (total  133): DR_seen=0.7577 DR_unseen=0.4200 DR_all=0.6590 FPR=0.0735 Acc=0.7742
+    fill= 100 (total  183): DR_seen=0.7587 DR_unseen=0.4941 DR_all=0.6814 FPR=0.0738 Acc=0.7868
+    fill= 200 (total  283): DR_seen=0.7696 DR_unseen=0.5475 DR_all=0.7047 FPR=0.0766 Acc=0.7989
+    fill= 400 (total  483): DR_seen=0.7859 DR_unseen=0.6155 DR_all=0.7361 FPR=0.0798 Acc=0.8154
+    fill= 800 (total  883): DR_seen=0.7967 DR_unseen=0.6720 DR_all=0.7602 FPR=0.0857 Acc=0.8266
+    fill=1500 (total 1583): DR_seen=0.8274 DR_unseen=0.7432 DR_all=0.8028 FPR=0.0932 Acc=0.8476
+seed 3: boundary-aware set = 78 detectors, classical pool = 1500 (fit 7.1s)
+    fill=   0 (total   78): DR_seen=0.6944 DR_unseen=0.4213 DR_all=0.6146 FPR=0.0746 Acc=0.7485
+    fill=  50 (total  128): DR_seen=0.7037 DR_unseen=0.4379 DR_all=0.6260 FPR=0.0750 Acc=0.7548
+    fill= 100 (total  178): DR_seen=0.7046 DR_unseen=0.4477 DR_all=0.6295 FPR=0.0763 Acc=0.7563
+    fill= 200 (total  278): DR_seen=0.7069 DR_unseen=0.5720 DR_all=0.6675 FPR=0.0796 Acc=0.7764
+    fill= 400 (total  478): DR_seen=0.7086 DR_unseen=0.6072 DR_all=0.6790 FPR=0.0811 Acc=0.7823
+    fill= 800 (total  878): DR_seen=0.7362 DR_unseen=0.6725 DR_all=0.7176 FPR=0.0929 Acc=0.7992
+    fill=1500 (total 1578): DR_seen=0.7479 DR_unseen=0.6995 DR_all=0.7337 FPR=0.0984 Acc=0.8060
+seed 4: boundary-aware set = 73 detectors, classical pool = 1500 (fit 7.5s)
+    fill=   0 (total   73): DR_seen=0.6891 DR_unseen=0.4957 DR_all=0.6326 FPR=0.0781 Acc=0.7572
+    fill=  50 (total  123): DR_seen=0.7112 DR_unseen=0.5264 DR_all=0.6572 FPR=0.0807 Acc=0.7701
+    fill= 100 (total  173): DR_seen=0.7122 DR_unseen=0.5467 DR_all=0.6638 FPR=0.0818 Acc=0.7734
+    fill= 200 (total  273): DR_seen=0.7129 DR_unseen=0.5853 DR_all=0.6756 FPR=0.0852 Acc=0.7787
+    fill= 400 (total  473): DR_seen=0.7228 DR_unseen=0.6520 DR_all=0.7021 FPR=0.0870 Acc=0.7929
+    fill= 800 (total  873): DR_seen=0.7669 DR_unseen=0.8128 DR_all=0.7803 FPR=0.0930 Acc=0.8349
+    fill=1500 (total 1573): DR_seen=0.7703 DR_unseen=0.8456 DR_all=0.7923 FPR=0.1001 Acc=0.8387
+
+=== hybrid sweep (mean over 5 seeds; fill=-1 is pure classical) ===
+ fill  n_total  DR_seen  DR_seen_sd  DR_unseen  DR_unseen_sd   DR_all      FPR   FPR_sd      Acc   Acc_sd
+   -1   1500.0 0.777122    0.041943   0.764213      0.054972 0.773350 0.096530 0.002560 0.829400 0.020126
+    0     81.0 0.707387    0.015444   0.396960      0.082155 0.616676 0.074081 0.002705 0.749885 0.010678
+   50    131.0 0.723395    0.021191   0.427840      0.067245 0.637030 0.074946 0.003567 0.761098 0.011840
+  100    181.0 0.724386    0.021223   0.483787      0.049868 0.654079 0.076326 0.003514 0.770209 0.012855
+  200    281.0 0.730001    0.024491   0.545653      0.063492 0.676132 0.080095 0.003109 0.781139 0.013742
+  400    481.0 0.743323    0.031091   0.617973      0.037678 0.706694 0.083411 0.003350 0.797108 0.011984
+  800    881.0 0.771463    0.036696   0.715307      0.064599 0.755053 0.091154 0.003126 0.821301 0.021078
+ 1500   1581.0 0.789012    0.039743   0.765760      0.053824 0.782218 0.097415 0.002768 0.834067 0.020124
+
+wrote results/nslkdd_canonical_hybrid.csv and results/nslkdd_canonical_hybrid_summary.csv
